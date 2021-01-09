@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    /* Variables*/
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+}
+
+@media(max-widht: 50%){
+}
+
+
+body{
+    background-color: var(--dark-cyan);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg") ;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: left -250px top -500px, right -220px bottom -720px;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white url("./images/bg-pattern-card.svg") repeat-x ;
+    padding-top: 90px;
+    text-align: center;
+    
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 1000;
+    opacity: 80%;
+    color: var(--very-dark-blue)
+}
+h1>span{
+    padding-left: 5px;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+h2{
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 80%;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    opacity: 80%;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    opacity: 50%;
+}
+
+
+.imagen{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    width: 80; height: 80px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--dark-grayish-blue);
+    opacity:90%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
